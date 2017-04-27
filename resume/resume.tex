@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume/CV
+% LaTeX Template
+% Version 1.0 (25/4/17)
+%
+% Author:
+% Martin Myslik <m.myslik@gmail.com>
+% Inspired by Twenty Seconds Resume by Carmine Spagnuolo
+% <cspagnuolo@unisa.it>
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------
+% DOCUMENT CLASS
+%----------------------------------------
+
+\documentclass[12pt]{template} % load template.cls
+
+%----------------------------------------
+% PERSONAL INFORMATION
+%----------------------------------------
+
+\profilepic{foto.jpg} % Profile picture
+
+\fullname{John Doe} % Your name
+\jobtitle{Software Developer} % Job title/career
+
+\birthdate{15 Jun 1988} % Date of birth
+\address{5th Avenue, New York, USA} % Short address/location
+\phone{+420 123 456 789} % Phone number
+\site{http://www.example.com/} % Personal website
+\email{john.doe@example.com} % Email address
+
+%----------------------------------------
+
+\begin{document}
+
+%----------------------------------------
+% ABOUT ME
+%----------------------------------------
+
+\aboutme{I am a passionate software engineer who loves writing clean code and tackling difficult challenges. I am cooperative and like to work in a strong team of professionals to deliver the best possible results. I am keen on learning new things and keeping pace with the current cutting-edge technologies.
+}
+
+\sidebar % Print the sidebar
+
+%----------------------------------------
+% EDUCATION
+%----------------------------------------
+
+\section{Education}
+
+\begin{dlist}
+	\ditem{2013-2016}{M.Sc.}{University of California, California}{Software Engineering}
+	\ditem{2008-2011}{B.Sc.}{Boston University, Boston}{Computer Science and Artificial}
+	\ditem{2009-20010}{Exchange program}{Paris University, Paris}{2-semester exhange program in Paris, computer science}
+	%\ditem{<dates>}{<title/company>}{<location>}{<description>}
+\end{dlist}
+
+%----------------------------------------
+%	 EXPERIENCE
+%----------------------------------------
+
+\section{Experience}
+
+\begin{dlist}
+	\ditem{2015-present}{Network Solutions Inc.}{New York, full-time}{Development and maintanence of Java based platform framework \\
+	\\
+	I was responsible for the development of core backend architecture, including analysis, design, code and testing. A huge part of my job was managing cloud deployment and scalability on AWS cloud.
+	}
+	\ditem{2012-2015}{Dataframe Concepts}{California, part-time}{Development of a mobile client application connected to a REST API \\
+	\\
+	My main task was to develop a mobile client application for Android and iOS which would connect to a REST API and help customers interact with out travel guide platform.
+	}
+	\ditem{2011-2012}{Freelancer}{California, part-time}{Freelance web development, company sites, e-shops and product sites written in HTML, CSS and Javascript}
+\end{dlist}
+
+%----------------------------------------
+% SKILLS
+%----------------------------------------
+
+\section{Skills}
+
+\begin{skills}
+	% \skill{name}{level 0-4}
+	\skill{Java}{3.5}
+	\skill{Scala}{2.5}
+	\skill{AWS}{2} \\
+	\skill{Git}{3}
+	\skill{Android}{3}
+	\skill{iOS}{2.5} \\
+\end{skills}
+
+%----------------------------------------
+% CERTIFICATIONS
+%----------------------------------------
+
+\section{Certifications and Additional Skills}
+
+\begin{slist} % Environment for a list with descriptions
+	\sitem{2017}{AWS Certified Solution Architect, Associate}
+	\sitem{2016}{Scrum Master course}
+	\sitem{2014}{Google Developers Certification - Associate Android Developer}
+	\sitem{2006}{Driving license, B}
+\end{slist}
+
+%----------------------------------------
+% INTERESTS
+%----------------------------------------
+
+\section{Interests}
+
+Sport, theater, reading, bee-keeping, wine tasting \\
+
+%----------------------------------------
+% LANGUAGES
+%----------------------------------------
+
+\section{Languages}
+
+\begin{center}
+	% {language}{percentage}
+	\languagecircle{English}{100}
+	\languagecircle{French}{90}
+	\languagecircle{Spanish}{50}
+\end{center}
+
+\end{document} 
