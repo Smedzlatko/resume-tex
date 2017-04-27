@@ -2,6 +2,8 @@
 
 This is a LaTeX template for CV/resume.
 
+This CV template was heavily inspired by Twenty Seconds Resume by Carmine Spagnuolo <cspagnuolo@unisa.it>
+
 ## Prerequisities
 
 Make sure you have LaTeX install: [LaTeX](https://www.latex-project.org/get/)
